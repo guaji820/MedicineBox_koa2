@@ -1,0 +1,31 @@
+{
+  "name": "medicinebox",
+  "version": "1.0.0",
+  "description": "medicine box message remind",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaji820/MedicineBox_koa2.git"
+  },
+  "keywords": [
+    "medicine",
+    "koa2",
+    "message",
+    "remind"
+  ],
+  "author": "lify_ll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guaji820/MedicineBox_koa2/issues"
+  },
+  "homepage": "https://github.com/guaji820/MedicineBox_koa2#readme",
+  "devDependencies": {
+    "iconv-lite": "^0.4.17",
+    "koa": "^1.2.5",
+    "lodash": "^4.17.4",
+    "sequelize": "^3.30.4"
+  }
+}

@@ -1,6 +1,7 @@
 const koa = require('koa')
 const bodyparser = require('koa-bodyparser')
-const 
+const router = require('./router/index')
+const config = require('./common/config.js')
 
 const app = koa()
 
@@ -13,7 +14,10 @@ const app = koa()
 //     console.log('aaa')
 //     yield next
 // })
+app.use(bodyparser())
+app.use(router.routes())
 
-app.listen(3001)
+app.listen(config.port)
 
-console.log('app started at port 3001.....')
+console.log(`app ${config.host} started at port ${config.port}.....`)
+//测试接口 localhost:3300/api/mb/aaa

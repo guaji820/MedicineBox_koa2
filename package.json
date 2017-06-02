@@ -25,6 +25,8 @@
   "devDependencies": {
     "iconv-lite": "^0.4.17",
     "koa": "^1.2.5",
+    "koa-bodyparser": "^2.3.0",
+    "koa-router": "^5.4.0",
     "lodash": "^4.17.4",
     "sequelize": "^3.30.4"
   }
